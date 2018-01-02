@@ -58,3 +58,8 @@ mailer:
     encryption: '' # '', 'ssl' or 'tls'
 
 ```
+
+### Use MongoDB
+
+If you want to use MongoDB as database, make sure you have [MongoDB PHP Driver](http://php.net/manual/en/set.mongodb.php) by 
+install mongodb extension available from [PECL](http://php.net/manual/en/mongodb.installation.pecl.php). You will want to run Cockpit installation again after change database configuration to mongodb.
